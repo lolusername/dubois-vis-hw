@@ -1,5 +1,5 @@
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: chainprinter, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -16,8 +16,10 @@
 /* #my_dataviz {
   margin-top: 100px;
 } */
-* {
+body,
+html {
   font-family: chainprinter;
+  font-weight: 400;
 }
 @tailwind base;
 @tailwind components;
