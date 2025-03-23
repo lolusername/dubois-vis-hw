@@ -17,7 +17,7 @@ const svg = d3
 
 //Read the data
 d3.csv(
-  "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate51/data.csv",
+  "data.csv",
 
   // When reading the csv, I must format variables:
   (d) => {
